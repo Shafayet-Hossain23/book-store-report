@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.headerStyle {
+    /* background-color: white; */
+    padding: 5px 20px;
+
+}
+
+.ulStyle {
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.ulStyle li a {
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.ulStyle li a:hover {
+    background-color: white;
+    border-radius: 3px;
+    color: black;
+}
+
+/* firstFrame */
+
+.textColor {
+
+    margin-top: 0;
+}
+
+.firstFrame {
+
+    background-image: url("https://i.ibb.co/0ByTrsd/3876048-1.jpg");
+    height: 590px;
+    top: 0;
+
+}
+
+.firstContent {
+    color: white;
+
+    /* padding: 150px 70px; */
+    display: flex;
+    justify-content: space-between;
+
+    /* margin-top: 120px; */
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.readBtn {
+    background-color: transparent;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #DDD7D2;
+    letter-spacing: 5px;
+    margin-top: 7px;
+
+
+}
+
+.readBtn:hover {
+    cursor: pointer;
+    background-color: white;
+    /* color: #DDD7D2; */
+    color: black;
+
+
+}
+
+.imgStyle {
+    margin-right: 120px;
+}
+
+/* 2nd frame explore */
+.explore {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+
+}
+
+.seeMore {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.seeBtn {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #DDD7D2;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.seeBtn:hover {
+    cursor: pointer;
+    background-color: white;
+    /* color: #DDD7D2; */
+    color: black;
+}
+
+.higherEdu {
+    background-image: url("https://collegeuncharted.com/wp-content/uploads/2021/07/college-laptop.jpeg");
+    height: 394px;
+    width: 377px;
+    color: white;
+}
+
+.bookTitle {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    letter-spacing: 3px;
+
+}
+
+.bookTitle :hover {
+    cursor: pointer;
+
+}
+
+.management {
+    background-image: url("https://m.nca.edu.pk/images/library.jpg");
+    height: 394px;
+    width: 377px;
+    color: white;
+}
+
+.finance {
+    background-image: url("https://img.freepik.com/premium-photo/businessman-using-tablet-online-banking-exchange-currency-payment-digital-marketing-finance_34200-465.jpg");
+    height: 394px;
+    width: 377px;
+    color: white;
+}
+
+.engnr {
+    background-image: url("https://images.unsplash.com/photo-1578589335615-9e804277a5af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwYm9va3N8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    height: 394px;
+    width: 377px;
+    color: white;
+}
+
+.commerce {
+    background-image: url("https://c0.wallpaperflare.com/preview/773/453/74/books-reading-learning-pen.jpg");
+
+    height: 394px;
+    width: 377px;
+    color: white;
+}
+
+/* frame */
+.frame3 {
+    display: flex;
+    margin: 50px;
+    gap: 35px;
+
+}
+
+.access {
+
+    padding: 0px 10px;
+}
